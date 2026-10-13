@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mu7mdbinsaeedWeb</title>
+        <!-- font awesome library مكتبة ايقونات جاهزة -->
+    <link rel="stylesheet" href="css/all.min.css">
+       <!-- render all element normally يجعل التصميم متوافق مع جميع المتصفحات -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&family=Cairo:wght@200..1000&family=El+Messiri:wght@400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/mu7mdbinsaeed.css">
+</head>
+<body>
+    <div class="images-page">
+        <img class="right" src="images/img2.png" alt="img page">
+        <img class="left" src="images/img3.svg" alt="img page">
+    </div>
+    <!-- start side bar -->
+    <div class="sidebar">
+            <div class="sidebar-logo">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <div class="sidebar-menu">
+                <ul>
+                    <div class="main-links">
+                        <li><a href="index.html#hero"><i class="fas fa-home"></i> الرئيسية</a></li>
+                        <li><a href="index.html#about"><i class="fas fa-user"></i> مــــن انـــا</a></li>
+                        <li><a href="index.html#works"><i class="fas fa-briefcase"></i> أعـــمــالـــي</a></li>
+                        <li><a href="index.html#services"><i class="fas fa-tools"></i> خــدمــاتــي</a></li>  
+                    </div>
+                    
+                    <li><a href="https://wa.me/967736720023?text=مرحباً%20أرغب%20بالتواصل" 
+                                    target="_blank" 
+                                    rel="noopener" 
+                                    aria-label="تواصل عبر واتساب">
+                                    <span class="contact-me">اطلب الآن</span>
+                            </a>
+                        </li>
+                </ul>
+            </div>
+            <div class="sidebar-social">
+                <a href="https://x.com/eng_mu7mdsaeed?s=09" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a> 
+                <a href="https://www.facebook.com/mu7mdalamoudiuix/" target="_blank" rel="noopener" aria-label="facebook">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/eng.mu7mdbinsaeed?igsh=MWlma2xjeDd0aDJkYg==" target="_blank" rel="noopener" aria-label="instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/mu7mdbinsaeed?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener" aria-label="linkkedin">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:mo7ina672@gmail.com" target="_blank" aria-label="إرسال بريد إلكتروني">
+                    <i class="fas fa-envelope"></i> 
+                </a>
+                <a href="https://wa.me/967736720023?text=مرحباً%20أرغب%20بالتواصل" target="_blank" rel="noopener" aria-label="تواصل عبر واتساب">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+            <div class="sidebar-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+    </div>
+    <!-- end side bar -->
+
+    <!-- start header  -->
+     <header>
+        <div class="container">
+            
+                <nav>
+                     <div class="logo">
+                <img src="images/logo.png" alt="logo">
+            </div>
+                    <i class="fas fa-bars hamburger"></i>
+                    <ul class="main-links" >
+                            <li><a href="#about">مــــن انـــا</a></li>
+                            <li><a href="#works">أعـــمــالـــي</a></li>
+                            <li><a href="#services"> خــدمــاتــي</a></li> 
+                            <!-- <li><a href="#"> للــتــواصـــل</a></li> -->
+                             <li>
+                                 <button onclick="document.getElementById('contact-me').scrollIntoView({ behavior: 'smooth' });" 
+                                    aria-label="تواصل عبر واتساب">
+                                    <span> تواصل معي</span>
+                                 </button>    
+                            </li>
+                    </ul>
+                    
+                </nav>
+        </div>
+     </header>
+    <!-- end header  -->
+    <div class="main-content">
+    
+        <!-- start hero  -->
+        <section id="hero">
+            <div class="container">
+                <div class="hero">
+                    <div class="hero-text">
+                        <div class="hello">
+                            <h1>هـــــــــلابــــــك نورتــنــا...</h1>
+                            <i class="fas fa-hand-paper wave-text"></i>
+                        </div>  
+                        <h2>مــــحــــمـــد بــــن ســــعــــيــد</h2>
+                        <p>لتصميم واجهات المستخدم وتطوير الويب</p>
+                        <div class="links-cont">
+                            <a class="con-me" href="https://wa.me/967736720023?text=مرحباً%20أرغب%20بالتواصل" 
+                                    target="_blank" 
+                                    rel="noopener" 
+                                    aria-label="تواصل عبر واتساب">
+                                    <span class="btn-hero">تواصل معي مباشرة </span>
+                            </a>
+                            <a class="cv" href="">
+                                <i class="fas fa-download"></i>
+                                تــنــزيـــــل CV  
+                            </a>
+                        </div>
+                        <!-- <div class="hero-slider">
+                            <img id="slider-img-current" src="images/img1.png" alt="slider" class="active" />
+                            <img id="slider-img-next" src="images/img2.png" alt="slider"  />
+                            <div class="slider-text">مرحبا بك في موقعي</div>
+                        </div> -->
+                    </div>
+                    <img src="images/img1.png" alt="img hero">
+                </div>
+            
+            </div>
+        </section>
+        <!-- end hero  -->
+        <div class="frame">
+            <img src="images/frame.png" alt="fra">
+        </div>
+        <!-- strart about  -->
+        <div class="about" id="about">
+                    <div class="main-heading">
+                        <div class="co">
+                            <h2>عــــنــــي</h2>
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div> 
+                <div class="container">
+                    <div class="about-me">
+                        <img src="images/me3.png" alt="mu7mdbinsaeed">
+                        <div class="about-text">
+                                <h1>من <span>انا</span></h1>
+                            <p class="p">مــرحــبــاَ.. <br>انا<span> محمد بن سعيد </span><br>مصمم UIUX ، مصمم جرافيك ،مصمم شعارات ، مصمم هويات بصرية ، ومطور ويب ، أقدّم حلولًا إبداعية ومتكاملة تجمع بين الجماليات والوظائف. أساعد الشركات والأفراد في بناء هويات بصرية قوية، تجارب مستخدم مميزة، ومواقع احترافية تلبي احتياجاتهم وتبرز تميزهم.
+                            </p>
+                            <div class="num-counters">
+                                 <div class="card-number">
+                                <!-- Blob Background -->
+                                <svg class="blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                    <path transform="translate(100 100)"
+                                    d="M39.5,-49.6C54.8,-43.2,73.2,-36.5,78.2,-24.6C83.2,-12.7,74.8,4.4,69,22.5C63.3,40.6,60.2,59.6,49.1,64.8C38.1,70,19,61.5,0.6,60.7C-17.9,59.9,-35.9,67,-47.2,61.9C-58.6,56.7,-63.4,39.5,-70,22.1C-76.6,4.7,-84.9,-12.8,-81.9,-28.1C-79,-43.3,-64.6,-56.3,-49.1,-62.5C-33.6,-68.8,-16.8,-68.3,-2.3,-65.1C12.1,-61.9,24.2,-55.9,39.5,-49.6Z">
+                                    </path>
+                                </svg>
+                                <!-- Text Content -->
+                                <div class="content">
+                                    <span class="number">+3</span>
+                                    <p class="label">سنوات الخبرة</p>
+                                </div>
+                                </div>
+                                <div class="card-number">
+                                    <!-- Blob Background -->
+                                    <svg class="blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                        <path transform="translate(100 100)"
+                                        d="M39.5,-49.6C54.8,-43.2,73.2,-36.5,78.2,-24.6C83.2,-12.7,74.8,4.4,69,22.5C63.3,40.6,60.2,59.6,49.1,64.8C38.1,70,19,61.5,0.6,60.7C-17.9,59.9,-35.9,67,-47.2,61.9C-58.6,56.7,-63.4,39.5,-70,22.1C-76.6,4.7,-84.9,-12.8,-81.9,-28.1C-79,-43.3,-64.6,-56.3,-49.1,-62.5C-33.6,-68.8,-16.8,-68.3,-2.3,-65.1C12.1,-61.9,24.2,-55.9,39.5,-49.6Z">
+                                        </path>
+                                    </svg>
+                                    <!-- Text Content -->
+                                    <div class="content">
+                                        <span class="number">+99</span>
+                                        <p class="label">تصاميم السوشيال ميديا</p>
+                                    </div>
+                                </div>
+                                <div class="card-number">
+                                <!-- Blob Background -->
+                                <svg class="blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                    <path transform="translate(100 100)"
+                                    d="M39.5,-49.6C54.8,-43.2,73.2,-36.5,78.2,-24.6C83.2,-12.7,74.8,4.4,69,22.5C63.3,40.6,60.2,59.6,49.1,64.8C38.1,70,19,61.5,0.6,60.7C-17.9,59.9,-35.9,67,-47.2,61.9C-58.6,56.7,-63.4,39.5,-70,22.1C-76.6,4.7,-84.9,-12.8,-81.9,-28.1C-79,-43.3,-64.6,-56.3,-49.1,-62.5C-33.6,-68.8,-16.8,-68.3,-2.3,-65.1C12.1,-61.9,24.2,-55.9,39.5,-49.6Z">
+                                    </path>
+                                </svg>
+                                <!-- Text Content -->
+                                <div class="content">
+                                    <span class="number">+10</span>
+                                    <p class="label"> مشاريع uiux</p>
+                                </div>
+                                </div>
+                                  <div class="card-number">
+                                <!-- Blob Background -->
+                                <svg class="blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                    <path transform="translate(100 100)"
+                                    d="M39.5,-49.6C54.8,-43.2,73.2,-36.5,78.2,-24.6C83.2,-12.7,74.8,4.4,69,22.5C63.3,40.6,60.2,59.6,49.1,64.8C38.1,70,19,61.5,0.6,60.7C-17.9,59.9,-35.9,67,-47.2,61.9C-58.6,56.7,-63.4,39.5,-70,22.1C-76.6,4.7,-84.9,-12.8,-81.9,-28.1C-79,-43.3,-64.6,-56.3,-49.1,-62.5C-33.6,-68.8,-16.8,-68.3,-2.3,-65.1C12.1,-61.9,24.2,-55.9,39.5,-49.6Z">
+                                    </path>
+                                </svg>
+                                <!-- Text Content -->
+                                <div class="content">
+                                    <span class="number">+15</span>
+                                    <p class="label">تصميم الشعارات</p>
+                                </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <!-- end about --> 
+
+         <!-- From Uiverse.io by gharsh11032000 --> 
+
+          <!-- start skills -->
+           <div class="my-skills" id="skills">
+                <div class="container">
+                    <div class="main-heading">
+                            <div class="co">    
+                                <h2>مهارات تقنية اخرى</h2>
+                                <i class=""></i>
+                            </div>
+                    </div>
+                    <div class="skills">
+                        <div class="card">
+                            <img src="images/cyber.jpeg" class="img-skills">
+                                <div class="hover-icon">
+                                    <div class="plus">+</div>
+                                    <div class="circle circle1"></div>
+                                    <div class="circle circle2"></div>
+                                    <div class="circle circle3"></div>
+                                </div>
+                                <div class="textBox">
+                                    <h2 class="title"> الذكاءالاصطناعي AI </h2>
+                                <p>أطوّر واجهات وتجارب مستخدم بسيطة وسهلة الاستخدام، توازن بين المظهر الجذاب والوظائف العملية، مما يضمن تجربة سلسة وممتعة للمستخدم
+                                    أطوّر واجهات وتجارب مستخدم بسيطة وسهلة الاستخدام، توازن بين المظهر الجذاب والوظائف العملية، مما يضمن تجربة سلسة وممتعة للمستخدم.</p>
+
+                                    </div>
+
+                         </div>  
+                        <div class="card">
+                            <img src="images/Eng cyber.png" class="img-skills">
+                                <div class="hover-icon">
+                                    <div class="plus">+</div>
+                                    <div class="circle circle1"></div>
+                                    <div class="circle circle2"></div>
+                                    <div class="circle circle3"></div>
+                                </div>
+                                <div class="textBox">
+                                    <h2 class="title"> الذكاءالاصطناعي AI </h2>
+                                    <p>أطوّر واجهات وتجارب مستخدم بسيطة وسهلة الاستخدام، توازن بين المظهر الجذاب والوظائف العملية، مما يضمن تجربة سلسة وممتعة للمستخدم
+                                    أطوّر واجهات وتجارب مستخدم بسيطة وسهلة الاستخدام، توازن بين المظهر الجذاب والوظائف العملية، مما يضمن تجربة سلسة وممتعة للمستخدم.</p>
+
+                                    </div>
+                         </div> 
+                    </div>
+                    <div class="btn-cer">
+                        <button class="button-certificates">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66 43">
+                                <polygon
+                                points="39.58,4.46 44.11,0 66,21.5 44.11,43 39.58,38.54 56.94,21.5"
+                                ></polygon>
+                                <polygon
+                                points="19.79,4.46 24.32,0 46.21,21.5 24.32,43 19.79,38.54 37.15,21.5"
+                                ></polygon>
+                                <polygon
+                                points="0,4.46 4.53,0 26.42,21.5 4.53,43 0,38.54 17.36,21.5"
+                                ></polygon>
+                            </svg>
+                            <span>شهاداتي</span>
+                        </button>
+                    </div>
+                </div>
+          <!-- end skills -->
+        <!-- start services -->
+            <div class="services" id="services">
+                <div class="main-heading">
+                        <div class="co">
+                            <i class="fas fa-tools"></i>
+                            <h2>خــدمــاتــي</h2>
+                        </div>
+                    </div> 
+                <div class="container">
+                    <div class="services-carousel">
+                        <button class="carousel-btn prev-btn" id="prevBtn">&#10094;</button>
+
+                    <div class="services-container" id="servicesContainer">
+                        <!-- card1 -->
+                        <div class="service-card">
+                            <img src="images/graphics.jpg " alt="ui">
+                            <div class="card-content">
+                                <h3>تصميم الجرافيك</h3>
+                                <p>"أبتكر تصاميم إبداعية تعكس أفكارك ورؤيتك بأسلوب عصري وملفت، من الإعلانات إلى المواد البصرية التي تترك انطباعًا قويًا لدى جمهورك</p>
+                            </div>
+                            <a href="https://wa.me/967736720023?text=مرحباً%20أرغب%20بالتواصل%20بخصوص%20خدمة%20تصميم%20الجرافيك" target="_blank" rel="noopener" class="orderbtn" aria-label="تواصل عبر واتساب">اطلب الان</a>
+                        </div>
+                        <!-- card2 -->
+                        <div class="service-card">
+                            <img src="images/identi.jpg" alt="ui">
+                            <div class="card-content">
+                                <h3 >تصميم الهويات البصرية</h3>
+                                <p>أصمم هوية بصرية متكاملة تشمل الشعار، الألوان، والخطوط، لتبني صورة متماسكة ومميزة تعبر عن علامتك التجارية وتثبت حضورها.</p>
+                            </div>
+                            <a href="https://wa.me/967736720023?text=مرحباً%20أرغب%20بالتواصل%20بخصوص%20خدمة%20تصميم%20الهويات%20البصرية" target="_blank" rel="noopener" class="orderbtn" aria-label="تواصل عبر واتساب">اطلب الان</a>
+                        </div>
+                        <!-- card3 -->
+                        <div class="service-card">
+                            <img src="images/uiux.jpg" alt="ui">
+                            <div class="card-content">
+                                <h3>تصميم واجهات وتجريةالمستخدم UIUX</h3>
+                                <p>أطوّر واجهات وتجارب مستخدم بسيطة وسهلة الاستخدام، توازن بين المظهر الجذاب والوظائف العملية، مما يضمن تجربة سلسة وممتعة للمستخدم.</p>
+                            </div>
+                            <a href="https://wa.me/967736720023?text=مرحباً%20أرغب%20بالتواصل%20بخصوص%20خدمة%20تصميم%20واجهات%20وتجربة%20المستخدم" target="_blank" rel="noopener" class="orderbtn" aria-label="تواصل عبر واتساب">اطلب الان</a>
+                        </div>
+                        <!-- card4 -->
+                        <div class="service-card">
+                            <img src="images/web dev.jpg" alt="ui">
+                            <div class="card-content">
+                                <h3 >تطوير مواقع الويب</h3>
+                                <p >ابني مواقع احترافية متجاوبة وسريعة، مصممة وفق أحدث المعايير، لتكون منصتك الرقمية جاهزة لإبراز خدماتك والوصول لعملائك بكفاءة. </p>
+                            </div>
+                            <a href="https://wa.me/967736720023?text=مرحباً%20أرغب%20بالتواصل%20بخصوص%20خدمة%20تطوير%20مواقع%20الويب" target="_blank" rel="noopener" class="orderbtn" aria-label="تواصل عبر واتساب">اطلب الان</a>
+                        </div>
+                        <!-- card5 -->
+                        <div class="service-card">
+                            <img src="images/logo cover.jpg" alt="ui">
+                            <div class="card-content">
+                                <h3 > تصميم الشعارات</h3>
+                                <p>احصل على شعار بتصميم احترافي يروي قصة علامتك ببساطة وإبداع</p>
+                            </div>
+                            <a href="https://wa.me/967736720023?text=مرحباً%20أرغب%20بالتواصل%20بخصوص%20خدمة%20تصميم%20الشعارات" target="_blank" rel="noopener" class="orderbtn" aria-label="تواصل عبر واتساب">اطلب الان</a>
+                        </div>
+                    </div>
+                    <button class="carousel-btn next-btn" id="nextBtn">&#10095;</button>
+                </div>
+            </div>
+            </div>
+        <!-- end services -->
+        <!-- start works -->
+            <div class="my-works" id="works">
+                <div class="container">
+                    <div class="main-heading">
+                        <div class="co">                      
+                            <h2>أعـــمــالـــي</h2>
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                    </div> 
+                    <div class="works">
+                        <div class="work-card">
+                            <img src="images/uiux/Coffee app.jpg" alt="work3">
+                            <h3>تصميم واجهات وتحربة المستخدم UIUX</h3>
+                            <a href="uiuxpage.html" class="veiw-btn">
+                                    <i class="fas fa-arrow-right"></i>
+                                    عرض
+                                </a>
+                        </div>
+                        <div class="work-card">
+                            <img src="images/web design.jpg" alt="work4">
+                            <h3>تطوير مواقع الويب</h3>
+                            <a href="webdev.html" class="veiw-btn">
+                                    <i class="fas fa-arrow-right"></i>
+                                    عرض
+                                </a>
+                        </div>
+                        <div class="work-card">
+                            <img src="images/logos/alamoudi logo2.jpg" alt="work4">
+                            <h3>تصميم الشعارات</h3>
+                            <a href="logosdesign.html" class="veiw-btn">
+                                    <i class="fas fa-arrow-right"></i>
+                                    عرض
+                                </a>
+                        </div>
+                        <div class="work-card">
+                            <img src="images/موك اب شعار فيرنيس وايت.jpg" alt="work1">
+                            <h3> تصميم الهويات البصرية</h3>
+                        <a href="identity-brand.html" class="veiw-btn">
+                                    <i class="fas fa-arrow-right"></i>
+                                    عرض
+                                </a>
+                        </div>
+                        <div class="work-card">
+                            <img src="images/graphic/20241219_234005.jpg" alt="work2">
+                            <h3>تصميم الجرافيك</h3>
+                            <a href="graphicdesdign.html" class="veiw-btn">
+                                    <i class="fas fa-arrow-right"></i>
+                                    عرض
+                                </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- end works -->
+            <!-- start contant -->
+            <div class="contact-me" id="contact-me">
+                <h3> للــتــواصـــل والاستفسار</h3>
+                <div class="cont-call">
+                    <div class="icons">
+                        <i class="fas fa-phone-alt"></i>
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <div class="nums">
+                        736720023 967+
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="nums">
+                        mo7ina672@gmail.com
+                    </div>
+                </div>        
+            </div>
+            <!-- end contant -->
+            <!-- start tools -->
+            <div class="tools">
+                <div class="container">
+                    <div class="icons-tools">
+                        <img src="images/photoshop-icon.webp">
+                        <img src="images/illustrator-icon.webp">
+                        <img src="images/coreldraw-3d-icon-.webp">
+                        <img src="images/figma-icon.webp">
+                        <img src="images/vs code icon.png">
+                    </div>
+                </div>
+            </div>
+            <!-- end tools -->
+          
+    </div>
+    <!-- start footer  -->
+            <footer>
+                    <div class="container">
+                        <div class="container-footer">
+                            <div class="footer-info">
+                                <div class="social-links"> 
+                                    <a class="social-btn" href="https://www.linkedin.com/in/mu7mdbinsaeed?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                         target="_blank" 
+                                        rel="noopener" >
+                                        <i class="fab fa-linkedin-in"></i>
+                                        <span class="text">mu7mdbinsaeed</span>
+                                    </a>
+                                    <a class="social-btn" href="https://x.com/eng_mu7mdsaeed?s=09"
+                                        target="_blank" 
+                                        rel="noopener" >
+                                        <i class="fa-brands fa-x-twitter"></i>
+                                        <span class="text">eng_mu7mdsaeed</span>
+                                       </a> 
+                                    <a class="social-btn" href="https://www.facebook.com/mu7mdalamoudiuix/" 
+                                        target="_blank" 
+                                        rel="noopener" 
+                                        aria-label="facebook">
+                                        <i class="fab fa-facebook"></i>
+                                        <span class="text">mu7mdalamoudiuix</span>
+                                    </a>
+                                    <a class="social-btn" href="https://www.instagram.com/eng.mu7mdbinsaeed?igsh=MWlma2xjeDd0aDJkYg==" 
+                                        target="_blank" 
+                                        rel="noopener" 
+                                        aria-label="instagram">
+                                        <i class="fab fa-instagram"></i>
+                                        <span class="text">eng.mu7mdbinsaeed</span>
+                                    </a>
+                                    <a class="social-btn" href="mailto:mo7ina672@gmail.com"
+                                    target="_blank"
+                                    aria-label="إرسال بريد إلكتروني">
+                                        <i class="fas fa-envelope"></i>
+                                        <span class="text">mo7ina672@gmail</span>
+                                    </a>
+                                    <a class="social-btn" href="https://wa.me/967736720023?text=مرحباً%20أرغب%20بالتواصل" 
+                                        target="_blank" 
+                                        rel="noopener" 
+                                        aria-label="تواصل عبر واتساب">
+                                        <i class="fab fa-whatsapp"></i>
+                                        <span class="text">736720023</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="other-links">
+                                    <div class="home">
+                                        <a href="index.html">
+                                            <i class="fas fa-home"></i>
+                                            الرئيسية
+                                        </a>
+                                    </div>
+                                    <div class="me">
+                                        <a href="index.html#about">
+                                            <i class="fas fa-user"></i>
+                                            عني
+                                        </a>
+                                    </div>
+                                    <div class="works">
+                                        <a href="index.html#works">
+                                            <i class="fas fa-briefcase"></i>
+                                            اعمالي
+                                        </a>
+                                    </div>
+                                    <div class="services">
+                                        <a href="index.html#services">
+                                            <i class="fas fa-tools"></i>
+                                            خدماتي
+                                        </a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+            </footer>
+    <!-- end footer  --> 
+        <script src="js/main.js"></script>
+   
+</body>
+
+</html>
